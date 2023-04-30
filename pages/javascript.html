@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/icon" href="../images/iconj.png">
+    <title>Web Development - JavaScript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        @media screen and (min-width:992px) {
+            .return{
+            display: none;
+            }
+        }
+        .bg-grey{
+            background-color: rgb(244, 244, 244);
+        }
+    </style>
+</head>
+<body>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-3 border-bottom border-dark">
+        <div class="container-fluid">
+            <a href="../Main_page.html" class="navbar-brand"><img src="../images\design2.png" alt="img" height="40"/>  Web Dev </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse " id="nav">
+                <ul class="navbar-nav me-auto" >
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="../Main_page.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="html.html">HTML</a></li>
+                    <li class="nav-item"><a class="nav-link" href="css.html">CSS</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="javascript.html">JAVASCRIPT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../Main_page.html#contact-us">Contact Us</a></li>
+                </ul>
+                <span class="navbar-text d-sm-flex d-block justify-content-end m-lg-1 m-1"><img src="../images/phone.png">73250511</span> 
+                <span class="navbar-text d-sm-flex d-block justify-content-end m-lg-1 m-1"><img src="../images/mail.png" height="24"> WebDev@gmail.com</span>
+                <span class="d-sm-flex justify-content-end m-lg-1 m-1"><button class="btn btn-success text-nowrap m-1">sign in</button><button class="btn btn-success m-1">login</button></span>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid border-bottom border-3 border-dark" style="background-color: rgb(233, 233, 220);">
+        <div class="container-xxl mt-5 mb-5">
+            <!--JavaScript-->
+            <div class="row gy-5 d-flex justify-content-around mb-5 pb-5" id="Javascript">
+                <div class="col-auto col-lg-5">
+                    <h2>JAVASCRIPT</h2> <br>
+                    JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives mais aussi pour les serveurs2. C’est un langage orienté objet à prototype, càd que les bases du langage et ses principales interfaces sont fournies par des objets qui ne sont pas des instances de classes, mais qui sont chacun équipés de constructeurs permettant de créer leurs propriétés, et notamment une propriété de prototypage qui permet d’en créer des objets héritiers personnalisés. <br>
+                        <a class="btn btn-success" style="margin: 3% 0%;" href="#plan">Learn more</a>
+                </div>
+                <div class="text-center col-auto col-lg-5">
+                    <img src="../images/javascript.png" class="img-fluid border border-dark border-3 rounded-3 rounded-pill h-75">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contenu-->
+    <div class="container-fluid">
+        <div class="row bg-grey">
+            <div class="col-lg-2 col-auto mt-3" id="plan">
+                <div class="position-sticky top-0">
+                    <div class="navbar navbar-expand-lg navbar-light d-block">
+                        <h2 class="navbar-brand">Plan</h2>
+                        <ul class="navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav d-block">
+                                <li class="nav-item"><a class="nav-link responsive" href="#div1"><strong>Introduction</strong></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#div2"><strong>Ou se place le code JavaScript ?</strong></a></li>
+                            </div>
+                        </ul>
+                        </div>
+                </div>
+             </div>
+            <div class="col-lg-7 col-auto mt-5">
+                <div title="Introduction" class="shadow p-3 mb-5 bg-body rounded" id="div1">
+                    <h2><strong>Introduction:</strong></h2>
+                    <dl>
+                        <dt><mark>JavaScript:</mark></dt> <dd>JavaScript est un langage de programmation qui permet d'implémenter des mécanismes complexes sur une page web. À chaque fois qu'une page web fait plus que simplement afficher du contenu statique — afficher du contenu mis à jour à des temps déterminés, des cartes interactives, des animations 2D/3D, des menus vidéo défilants, ou autre, JavaScript a de bonnes chances d'être impliqué. C'est la troisième couche des technologies standards du web, les deux premières (HTML et CSS) étant couvertes bien plus en détail dans d'autres tutoriels sur MDN.<br>Il permet de créer du contenu mis à jour de façon dynamique, de contrôler le contenu multimédia, d'animer des images, et tout ce à quoi on peut penser. Bon, peut-être pas tout, mais vous pouvez faire bien des choses avec quelques lignes de JavaScript.</dd>    
+                    <div title="Go back to Plan"  class="text-end">
+                        <a href="#plan" class="btn btn-light return"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-up" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"/>
+                            </svg> 
+                        </a>
+                    </div>    
+                </div>
+                <div title="Ou se place le code JavaScript ?" class="shadow p-3 mb-5 bg-body rounded" id="div2">
+                    <h2>Ou se place le code JavaScript ?:</h2>
+                    <p>On va pouvoir placer du code JavaScript à trois endroits différents :</p>
+                    <ul>
+                        <li>Directement dans la balise ouvrante d’un élément HTML.</li>
+                        <li>Dans un élément <code>script</code>, au sein d’une page HTML</li>
+                        <li>Dans un fichier séparé contenant exclusivement du JavaScript et portant l’extension <code>.js</code>.</li>
+                    </ul>
+                    <h5>Placer le code JavaScript dans la balise ouvrante d’un élément HTML:</h5>
+                    <p>Il est possible que vous rencontriez encore aujourd’hui du code JavaScript placé directement dans la balise ouvrante d’éléments HTML.</p>
+                    <p>Ce type de construction était fréquent à l’époque notamment pour prendre en charge des évènements comme par exemple un clic.</p>
+                    <p>Regardez plutôt l’exemple ci-dessous :</p>
+                    <img src="../images/js.png" class="img-fluid" style="display: block; margin-left: auto; margin-right: auto; padding-bottom: 5%;">
+                    <img src="../images/js2.png" class="img-fluid" style="display: block; margin-left: auto; margin-right: auto;">
+                    <p>&nbsp;</p>
+                    <h5>Placer le code JavaScript dans un élément script, au sein d’une page HTML:</h5>
+                    <p>On va également pouvoir placer notre code JavaScript dans un élément script qui est l’élément utilisé pour indiquer qu’on code en JavaScript.</p>
+                    <p>On va pouvoir placer notre élément script n’importe où dans notre page HTML, aussi bien dans l’élément head qu’au sein de l’élément body.</p>
+                    <p>De plus, on va pouvoir indiquer plusieurs éléments script dans une page HTML pour placer plusieurs bouts de code JavaScript à différents endroits de la page.</p>
+                    <p>Regardez plutôt l’exemple ci-dessous. Ce code produit le même résultat que le précédent :</p>
+                    <img src="../images/js3.png" class="img-fluid" style="display: block; margin-left: auto; margin-right: auto; padding-bottom: 5%;">
+                    <img src="../images/js4.png" class="img-fluid" style="display: block; margin-left: auto; margin-right: auto;">
+                    <p>&nbsp;</p>
+                    <h5>Placer le code JavaScript dans un fichier séparé:</h5>
+                    <p>Placer le code JavaScript dans un fichier séparé ne contenant que du code JavaScript est la méthode recommandée et que nous préférerons tant que possible.</p>
+                    <p>Pour faire cela, nous allons devoir créer un nouveau fichier et l’enregistrer avec une extension .js. Ensuite, nous allons faire appel à notre fichier JavaScript depuis notre fichier HTML.</p>
+                    <p>Pour cela, on va à nouveau utiliser un élément script mais nous n’allons cette fois-ci rien écrire à l’intérieur. A la place, on va plutôt ajouter un attribut src à notre élément script et lui passer en valeur l’adresse du fichier. Si votre fichier .js se situe dans le même dossier que votre fichier .html, il suffira d’indiquer le nom du fichier en valeur de l’attribut src.</p>
+                    <p>Notez qu’un élément script ne peut posséder qu’un attribut src. Dans le cas où on souhaite utiliser plusieurs fichiers JavaScript dans un fichier HTML, il faudra renseigner autant d’éléments script dans le fichier avec chaque élément appelant un fichier en particulier.</p>
+                    <p>Le code ci-dessous produit à nouveau les mêmes résultats que précédemment. Ne vous préoccupez pas de l’attribut async pour le moment.</p>
+                    <img src="../images/js5.png" class="img-fluid" style="display: block; margin-left: auto; margin-right: auto; padding-bottom: 5%;">
+                    <img src="../images/js6.png" class="img-fluid" style="display: block; margin-left: auto; margin-right: auto; padding-bottom: 5%;">
+                    <img src="../images/js7.png" class="img-fluid" style="display: block; margin-left: auto; margin-right: auto;">
+                    <div title="Go back to Plan"  class="text-end">
+                        <a href="#plan" class="btn btn-light return"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-up" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"/>
+                            </svg> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

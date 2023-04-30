@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/icon" href="../images/iconc.png">
+    <title>Web Development - Css</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        @media screen and (min-width:992px) {
+            .return{
+            display: none;
+            }
+        }
+        .bg-grey{
+            background-color: rgb(244, 244, 244);
+        }
+    </style>
+</head>
+<body>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-3 border-bottom border-dark">
+        <div class="container-fluid">
+            <a href="../Main_page.html" class="navbar-brand"><img src="../images\design2.png" alt="img" height="40"/>  Web Dev </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse " id="nav">
+                <ul class="navbar-nav me-auto" >
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="../Main_page.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="html.html">HTML</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="css.html">CSS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="javascript.html">JAVASCRIPT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../Main_page.html#contact-us">Contact Us</a></li>
+                </ul>
+                <span class="navbar-text d-sm-flex d-block justify-content-end m-lg-1 m-1"><img src="../images/phone.png">73250511</span> 
+                <span class="navbar-text d-sm-flex d-block justify-content-end m-lg-1 m-1"><img src="../images/mail.png" height="24"> WebDev@gmail.com</span>
+                <span class="d-sm-flex justify-content-end m-lg-1 m-1"><button class="btn btn-success text-nowrap m-1">sign in</button><button class="btn btn-success m-1">login</button></span>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid border-bottom border-3 border-dark" style="background-color: rgb(233, 233, 220);">
+        <div class="container-xxl mt-5 mb-5">
+             <!--CSS-->
+             <div class="row gy-5 d-flex justify-content-around  mb-5  pb-5" id="CSS">
+                <div class="col-auto col-lg-5">
+                    <h2>CSS3</h2> <br>
+                    Le développement du troisième niveau des feuilles de styles en cascade commence dès 1999, parallèlement à celui de CSS 2.1. CSS3 devient « modulaire », afin de faciliter ses mises à jour, mais aussi son implémentation par des agents utilisateurs aux capacités et aux besoins de plus en plus variés (navigateurs graphiques, navigateurs pour mobiles, navigateurs vocaux). Les navigateurs peuvent ainsi implémenter des sous-ensembles de CSS3. <br>
+                        <a class="btn btn-success" style="margin: 3% 0%;" href="#plan">Learn more</a>
+                </div>
+                <div class="col-auto text-center col-lg-5">
+                    <img src="../images/css.png" class="img-fluid  border border-dark border-3 rounded-3 rounded-pill h-75">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contenu-->
+    <div class="container-fluid">
+        <div class="row bg-grey">
+            <div class="col-lg-2 col-auto mt-3 " id="plan">
+                <div class="position-sticky top-0">
+                    <div class="navbar navbar-expand-lg navbar-light d-block">
+                        <h2 class="navbar-brand">Plan</h2>
+                        <ul class="navbar-expand" id="navbarNavAltMarkup">
+                            <div class="navbar-nav d-block">
+                                <li class="nav-item"><a class="nav-link" href="#div1"><strong>Introduction</strong></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#div2"><strong>Principe des feuilles de style CSS</strong></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#div3"><strong>Les bases De CSS</strong></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#div4"><strong>Sélecteur de Base</strong></a></li>
+                                <li class="nav-item"><a href="#div5" class="nav-link"><strong>Les Déclarations</strong></a></li>
+                            </div>
+                        </ul>
+                        </div>
+                </div>
+             </div>
+            <div class="col-lg-7 col-auto mt-5">
+                <div title="Introduction" class="shadow p-3 mb-5 bg-body rounded" id="div1">
+                    <h2><strong>Introduction</strong></h2>
+                    <dl>
+                        <dt><mark>Le Langage CSS:</mark></dt> <dd>(Cascading Style Sheets : Feuilles de Style en Cascade) a été développé par le W3C à partir de 1996. Autant dire que ce n'est pas vraiment "jeune"...<br>
+                        Il a pour but de séparer totalement la présentation d'une page Web de son contenu (c'est à dire du langage HTML), et de faciliter ainsi la maintenance et l'accessibilité d'un site.<br>
+                        Le CSS correspond à un langage informatique permettant de mettre en forme des pages web (HTML ou XML).<br>
+                        Ce langage est donc composé des fameuses « feuilles de style en cascade » également appelées fichiers CSS (.css) et contient des éléments de codage</dd>
+                    <div title="Go back to Plan"  class="text-end">
+                        <a href="#plan" class="btn btn-light return"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-up" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"/>
+                            </svg> 
+                        </a>
+                    </div>       
+                 </div>
+                <div title="Principe des feuilles de style CSS" class="shadow p-3 mb-5 bg-body rounded" id="div2">
+                    <h2>Principe des feuilles de style CSS</h2>
+                    <p>Le design d'un site évolue toujours au fil du temps. Le problème, lorsqu'on n'utilise pas de feuilles de style, c'est qu'il faut reprendre toutes les pages html une à une pour modifier une police de caractère ou une couleur de fond...<br>
+                    Avec les "Cascading Style Sheets" (CSS), ce lourd handicap est résolu.<br> 
+                    C'est dans la feuille de style CSS que l'on va déclarer toute la mise en forme des pages : <mark>le positionnement des éléments</mark>, <mark>l'image de fond</mark>, <mark>les polices de caractère</mark>, <mark>les couleurs</mark>, etc.<br>
+                    Celle-ci sera liée à chaque page html. Ainsi, lorsqu'on en modifiera un élément, cela se répercutera immédiatement sur toutes les pages html. Puissant, pratique, bref : indispensable.</p>
+                    <img src="../images/css1.png" class="img-fluid" style="display: block; margin-left: auto; margin-right: auto;">    
+                </div>
+                <div title="Les bases de CSS" class="shadow p-3 mb-5 bg-body rounded" id="div3">
+                    <h2>Les bases de CSS: </h2>
+                    <div>
+                        <p>CSS est constitué d'une série de règles, chacune composée d'un sélecteur et d'un bloc de déclarations. Le sélecteur identifie l'élément HTML ou les éléments auxquels la règle s'applique, tandis que le bloc de déclarations contient une ou plusieurs déclarations qui spécifient les propriétés de style et les valeurs à appliquer à ces éléments.</p>
+                        <p> Par exemple, la règle CSS suivante définit la taille de police de tous les paragraphes à 16 pixels :</p>
+                        <img src="../images/css3.png" class="img-fluid mb-2">
+                        <p>Dans cette règle, <code>p</code> est le sélecteur, et <code>font-size: 16px</code> est le bloc de déclarations.</p>
+                    </div>
+                </div>
+                <div title="Sélecteur de Base" class="shadow p-3 mb-5 bg-body rounded" id="div4">
+                    <h2>Sélecteurs de base :</h2>
+                    <p>CSS fournit une variété de sélecteurs pour cibler des éléments HTML spécifiques, des classes, des ID et d'autres attributs. Certains sélecteurs courants comprennent :</p>
+                    <div>
+                        <dl>
+                        <dt><mark>Sélecteur universel :</mark></dt>
+                        <dd>
+                          <p>Sélectionnez tous les éléments. En option, il peut être limité à un espace de noms spécifique ou à tous les espaces de noms.</p>
+                          <p><strong>Syntax :</strong> <code>*</code> <code>ns|*</code> <code>*|*</code></p>
+                          <p><strong>Example :</strong> <code>*</code> Il correspond à tous les éléments du document.</p>
+                        </dd>
+                        <dt><mark>Type de Sélecteur :</mark></dt>
+                        <dd>
+                          <p>Sélectionne tous les éléments qui ont le nom de nœud donné.</p>
+                          <p><strong>Syntax :</strong> <code>elementname</code></p>
+                          <p><strong>Example :</strong> <code>input</code> correspond à n’importe quel élément <code>&lt;input&gt;</code></a>.</p>
+                        </dd>
+                        <dt><mark>Sélecteur de classe :</mark></dt>
+                        <dd>
+                          <p>Sélectionne tous les éléments qui ont l'attribut de <code>class</code> donnée.</p>
+                          <p><strong>Syntax :</strong> <code>.classname</code></p>
+                          <p><strong>Example :</strong> <code>.index</code> correspond à tout élément qui a <code>class="index"</code>.</p>
+                        </dd>
+                        <dt><mark>Sélecteur ID : </mark></dt>
+                        <dd>
+                          <p>Sélectionne un élément en fonction de la valeur de son attribut <code>id</code>. Il ne devrait y avoir qu’un seul élément avec un identifiant donné dans un document.</p>
+                          <p><strong>Syntax :</strong> <code>#idname</code></p>
+                          <p><strong>Example :</strong> <code>#toc</code> correspond à tout élément qui a <code>id="toc"</code>.</p>
+                        </dd>
+                        <dt><mark>Sélecteur d’attributs : </mark></dt>
+                        <dd>
+                          <p>Sélectionne tous les éléments qui ont l'attribut donné.</p>
+                          <p><strong>Syntax :</strong> <code>[attr]</code> <code>[attr=value]</code> <code>[attr~=value]</code> <code>[attr|=value]</code> <code>[attr^=value]</code> <code>[attr$=value]</code> <code>[attr*=value]</code></p>
+                          <p><strong>Example :</strong> <code>[autoplay]</code> correspond à tous les éléments qui ont l'attribut <code>autoplay</code>.</p>
+                        </dd>
+                      </dl>
+                    </div>
+                    <h4>Les groupes sélectionnés :</h4>
+                    <div><dl>
+                        <dt><mark>Liste des sélecteurs :</mark></dt>
+                        <dd>
+                          <p>Le <code>,</code> sélecteur est une méthode de regroupement qui sélectionne tous les nœuds correspondants.</p>
+                          <p><strong>Syntax :</strong> <code>A, B</code></p>
+                          <p><strong>Example :</strong> <code>div, span</code> correspond à la fois aux éléments <code>&lt;span&gt;</code> et <code>&lt;div&gt;</code>.</p>
+                        </dd>
+                      </dl>
+                      <strong>etc...</strong>
+                    </div>
+                    <div title="Go back to Plan"  class="text-end">
+                        <a href="#plan" class="btn btn-light return"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-up" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"/>
+                            </svg> 
+                        </a>
+                    </div>
+                </div>
+                <div title="Les Déclarations" class="shadow p-3 mb-5 bg-body rounded" id="div5">
+                    <h2>Les Déclarations : </h2>
+                    <p>Les déclarations CSS spécifient les propriétés de style et les valeurs à appliquer aux éléments sélectionnés. Certaines propriétés courantes comprennent : </p>
+                    <ul>
+                        <li><mark class="p-0"><b>Couleur :</b></mark> Définit la couleur du texte ou de l'arrière-plan, en utilisant des mots-clés, des valeurs hexadécimales ou des valeurs RVB.
+                        <img src="../images/css4.png" alt="" class="img-fluid d-block m-3"></li>
+                        <li><mark class="p-0"><b> Police de caractères : </b></mark>Définit la famille de police, la taille, le poids, le style et d'autres propriétés de texte.
+                        <img src="../images/css2.png" alt="" class="img-fluid d-block m-3"></li>
+                        <li><mark class="p-0"><b>Marge et rembourrage : </b></mark>Définit l'espace autour et à l'intérieur d'un élément, respectivement.
+                        <img src="../images/css5.png" alt="" class="img-fluid d-block m-3"></li>
+                        <li><mark class="p-0"><b> Bordure : </b></mark>Définit le style, la largeur et la couleur de la bordure d'un élément.
+                        <img src="../images/css6.PNG" alt="" class="img-fluid d-block m-3"></li>
+                        <li><mark class="p-0"><b>Largeur et hauteur : </b></mark>Définit les dimensions d'un élément.
+                        <img src="../images/css7.png" alt="" class="img-fluid d-block m-3"></li>
+                        <strong>etc...</strong>
+                    </ul>
+                    
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/icon" href="../images/iconh.png">
+    <title>Web Development - HTML</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        @media screen and (min-width:992px) {
+            .return{
+            display: none;
+            }
+        }
+        .bg-grey{
+            background-color: rgb(244, 244, 244);
+        }
+    </style>
+</head>
+<body>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-3 border-bottom border-dark">
+        <div class="container-fluid">
+            <a href="../Main_page.html" class="navbar-brand"><img src="../images\design2.png" alt="img" height="40"/>  Web Dev </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse " id="nav">
+                <ul class="navbar-nav me-auto" >
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="../Main_page.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">HTML</a></li>
+                    <li class="nav-item"><a class="nav-link" href="css.html">CSS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="javascript.html">JAVASCRIPT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../Main_page.html#contact-us">Contact Us</a></li>
+                </ul>
+                <span class="navbar-text d-sm-flex d-block justify-content-end m-lg-1 m-1"><img src="../images/phone.png">73250511</span> 
+                <span class="navbar-text d-sm-flex d-block justify-content-end m-lg-1 m-1"><img src="../images/mail.png" height="24"> WebDev@gmail.com</span>
+                <span class="d-sm-flex justify-content-end m-lg-1 m-1"><button class="btn btn-success text-nowrap m-1">sign in</button><button class="btn btn-success m-1">login</button></span>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid border-bottom border-3 border-dark" style="background-color: rgb(233, 233, 220);">
+        <div class="container-xxl mt-5 mb-5">
+            <!--HTML-->
+            <div class="row gy-5 d-flex justify-content-around mb-5 pb-5" id="HTML">
+                <div class="col-auto col-lg-5">
+                    <h2>HTML</h2> <br>
+                        HTML5 (HyperText Markup Language 5) est la dernière révision majeure d'HTML (format de données conçu pour représenter les pages web). Cette version a été finalisée le 28 octobre 2014. HTML5 spécifie deux syntaxes d'un modèle abstrait défini en termes de DOM : HTML5 et XHTML5. Le langage comprend également une couche application avec de nombreuses API, ainsi qu'un algorithme afin de pouvoir traiter les documents à la syntaxe non conforme. <br>
+                        <a class="btn btn-success" style="margin: 3% 0%;" href="#plan">Learn more</a>
+                </div>
+                <div class="col-auto text-center col-lg-5">
+                    <img src="../images/html.PNG" class="img-fluid  border border-dark border-3 rounded-3 rounded-pill h-75">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contenu-->
+    <div class="container-fluid">
+        <div class="row bg-grey">
+            <div class="col-lg-2 col-auto mt-3" id="plan">
+                <div class="position-sticky top-0">
+                    <div class="navbar navbar-expand-lg navbar-light d-block">
+                        <h2 class="navbar-brand">Plan</h2>
+                        <ul class="navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav d-block">
+                                <li class="nav-item"><a class="nav-link" href="#div1"><strong>Introduction</strong></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#div2"><strong>Les balises <abbr>HTML</abbr> et leurs attributs</strong></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#div3"><strong>Les balises en pair</strong></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#div4"><strong>Balises les plus courantes</strong></a></li>
+                            </div>
+                        </ul>
+                        </div>
+                </div>
+             </div>
+            <div class="col-lg-7 col-auto mt-5">
+                <div title="Introduction" class="shadow p-3 mb-5 bg-body rounded" id="div1">
+                    <h2><strong>Introduction</strong></h2>
+                    <p>Développer chez l'apprenant les compétences
+                    adéquates pour créer un site web statique en utilisant les logiciels appropriés.</p>
+                    <dl>
+                        <dt><mark>Web:</mark></dt> <dd>Le Web est le terme communément employé pour parler du World Wide Web, ou WWW, traduit en français par la toile d'araignée mondiale. Il fait référence au système hypertexte fonctionnant sur le réseau informatique mondial Internet. Par abus de langage, le Web désigne de façon plus large tout ce qui se rapproche à cet univers internet. On ne fait plus toujours aujourd'hui la distinction technique entre ce que définit le Web et ce que définit Internet.</dd>
+                        <dt><mark>HTML:</mark></dt> <dd>(HyperText Markup Language) qu'on peut traduire par « langage de balises pour l'hypertexte ». Il est utilisé afin de créer et de représenter le contenu d'une page web et sa structure.<br />
+                        <div class="table-responsive">
+                            <table class="table">
+                            <caption class="text-nowrap text-center">Exemples de navigateurs supportant HTML5</caption>
+                            <tr style="text-align: center;">
+                                <th scope="row"><a href="http://www.google.com" target="_blank"><img src="../images/Google_Chrome_icon.png" height="40" width="40" alt="google chrome image"></a></th>
+                                <th scope="row"> Google Chrome</th>
+                                <th scope="row"><meter value="80" min="0" max="100"></meter></th>
+                            </tr>
+                            <tr style="text-align: center;">
+                                <th scope="row"><a href="http://www.mozilla.org" target="_blank"><img src="../images/firefox.png" height="40" width="40" alt="mozilla firefox image"></a></th>
+                                <th scope="row">Mozilla FireFox </th>
+                                <th scope="row"><meter value="60" min="0" max="100"></meter></th>
+                            </tr>
+                            <tr style="text-align: center;">
+                                <th scope="row"><a href="http://www.microsoft.com" target="_blank"><img src="../images/Internet-Explorer-Logo.png"  height="40" width="65" alt="internet explorer image"></a ></th>
+                                <th scope="row">Internet Explorer</th>
+                                <th scope="row"><meter value="40" min="0" max="100"></meter></th>
+                            </tr>
+                        </table>
+                        </div>
+                    </dd>
+                        
+                        <dt><mark>HTTP:</mark></dt> <dd>(Hypertext Transfer Protocol) est l'ensemble de règles régissant le transfert de fichiers (texte, images, son, vidéo, et autres fichiers multimédias) sur le Web. Dès qu'un utilisateur se connecte au Web et ouvre un navigateur, il utilise indirectement le protocole HTTP.</dd>
+                        <dt><mark>URL:</mark></dt> <dd>(Uniform Resource Locator) Adresse qui précise la localisation d'une ressource Internet en indiquant le protocole à adopter, le nom de la machine, le chemin d'accès et le nom du fichier</dd>
+                        <dt><mark>Navigateur web:</mark></dt> <dd>également connu sous le nom de navigateur Internet ou simplement de navigateur, est une application logicielle qui permet d'accéder à Internet. Il s'agit d'une fenêtre ouverte en un clic sur l'ensemble des connaissances humaines : vous pouvez chercher la réponse à toutes vos questions.</dd>
+                        <dt><mark>Hyperlien:</mark></dt> <dd>également connu sous le nom de navigateur Internet ou simplement de navigateur, est une application logicielle qui permet d'accéder à Internet. Il s'agit d'une fenêtre ouverte en un clic sur l'ensemble des connaissances humaines : vous pouvez chercher la réponse à toutes vos questions.</dd>
+                    </dl>
+                    <div title="Go back to Plan" class="text-end">
+                        <a href="#plan" class="btn btn-light return"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-up" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"/>
+                            </svg> 
+                        </a>
+                    </div>
+                     
+                </div>
+                <div title="Les balises html et leurs attributs" class="shadow p-3 mb-5 bg-body rounded" id="div2">
+                    <h2>Les balises HTML et leurs attributs</h2>
+                    <div>
+                        <h3>Les Balises HTML:</h3> 
+                        <p>Ce sont les éléments de base pour écrire du HTML. Il en existe plusieurs types: </p>
+                        <ul>
+                            <li><a href="#b1">Balises de premier niveau</a></li>
+                            <li><a href="#b2">Balises d'en tête</a></li>
+                            <li><a href="#b3">Balises de structuration du texte</a></li>
+                            <li><a href="#b4">Balises de listes</a></li>
+                            <li><a href="#b5">Balises de tableau</a></li>
+                            <li><a href="#b6">Balises de formulaire</a></li>
+                            <li><a href="#b7">Balises sectionnantes</a></li>
+                            <li><a href="#b8">Balises génériques</a></li>
+                        </ul>
+                    <div id="b1">
+                        <h4>Balises de premier niveau:</h4>
+                        <p>Ces balises sont indispensables pour pouvoir commencer à coder une page web en HTML. Elles vont permettre d'indiquer aux différents navigateurs Web qu'il s'agit de pages en HTML et de séparer l'en-tête du corps de la page.</p>
+                        <ul>
+                            <li><code>&#60;html&#62;</code> - <code>&#60;/html&#62;</code> : balise principale de 	toutes les pages web.</li>
+                            <li><code>&#60;head&#62;</code> - <code>&#60;/head&#62;</code> : en-tête de la page.</li>
+                            <li><code>&#60;body&#62;</code> - <code>&#60;/body&#62;</code> : corps de la page.</li>
+                        </ul>
+                    </div>
+                    <div id="b2">
+                        <h4>Balises d'en tête:</h4>
+                        <p>Ces balises sont toutes situées dans l’en-tête de la page Web, c’est-à-dire entre la balise <code>&#60;head&#62;</code> et la balise <code>&#60;/head&#62;</code>. Vous remarquerez que quand un contenu se situe entre deux balises html, la deuxième est quasi-identique à la première à ceci près qu’il s’agit d’une balise fermante. Une balise fermante reprend la balise d’ouverture en y ajoutant un slash (/) avant l’intitulé de la balise et après le signe inférieur (&#60;). Comme ici avec le <code>&#60;head&#62;</code> qui est la balise d’ouverture et le <code>&#60;/head&#62;</code> qui est la balise de fermeture. Certaines balises sont dites auto-fermantes (comme la balise image (img)) <br/>
+                        Par exemple:</p>
+                        <ul>
+                            <li><code>&#60;link/&#62;</code> :  liaison avec une feuille de style.</li>
+                                <li><code>&#60;meta /&#62;</code> :  métadonnées de la page web.</li>
+                            <li><code>&#60;script&#62;</code> - <code>&#60;/script&#62;</code>: code JavaScript.</li>
+                            <li><code>&#60;style&#62;</code> - <code>&#60;/style&#62;</code> : code CSS.</li>
+                            <li><code>&#60;title&#62;</code> - <code>&#60;/title&#62;</code> : titre de la page.</li>
+                        </ul>
+                    </div>
+                    <div id="b3">
+                        <h4>Balises de structuration du texte:</h4>
+                        <p>Ces balises permettent de disposer des blocs dans la page contenant du texte, des images ou encore des menus.</p>
+                        <ul>
+                            <li><code>&#60;abbr&#62;</code> - <code>&#60;/abbr&#62;</code> : abréviation.</li>
+                            <li><code>&#60;h1&#62;</code> - <code>&#60;h6&#62;</code> : titre de différents niveaux.</li>
+                            <li><code>&#60;img /&#62;</code> : image grâce aux attributs src(adresse de l’image) et alt (texte de remplacement).</li>
+                            <li><code>&#60;mark&#62;</code> - <code>&#60;/mark&#62;</code> : mise en valeur visuelle.</li>
+                            <li><code>&#60;strong&#62;</code> - <code>&#60;/strong&#62;</code> : mise en valeur forte...</li>
+                        </ul>
+                    </div>
+                    <div id="b4">
+                        <h4>Balises de listes:</h4>
+                        <p>Ces balises permettent de créer des listes (numérotées, à puces…).</p>
+                        <ul>
+                            <li><code>&#60;ul&#62;</code> - <code>&#60;/ul&#62;</code> : liste à puces, non numérotée.</li>
+                            <li><code>&#60;ol&#62;</code> - <code>&#60;/ol&#62;</code> : liste numérotée.</li>
+                            <li><code>&#60;li&#62;</code> - <code>&#60;/li&#62;</code> : élément de la liste à puces.</li>
+                            <li><code>&#60;dl&#62;</code> - <code>&#60;/dl&#62;</code> :  liste de définitions.</li>
+                            <li><code>&#60;dt&#62;</code> - <code>&#60;/dt&#62;</code> : définition du terme.</li>
+                        </ul>
+                    </div>
+                    <div id="b5">
+                        <h4>Balises de tableau:</h4>
+                        <p>Ces balises ont pour but de créer un tableau structuré avec des lignes et des colonnes.</p>
+                        <ul>
+                            <li><code>&#60;table&#62;</code> - <code>&#60;/table&#62;</code> : tableau.</li>
+                            <li><code>&#60;caption&#62;</code> - <code>&#60;/caption&#62;</code> : titre du tableau.</li>
+                            <li><code>&#60;tr&#62;</code> - <code>&#60;/tr&#62;</code> : ligne de tableau.</li>
+                            <li><code>&#60;th&#62;</code> - <code>&#60;/th&#62;</code> :  cellule d’en-tête.</li>
+                            <li><code>&#60;td&#62;</code> - <code>&#60;/td&#62;</code> : cellule.</li>
+                            <li><code>&#60;thead&#62;</code> - <code>&#60;/thead&#62;</code> : section de l’en-tête du tableau.</li>
+                            <li><code>&#60;tbody&#62;</code> - <code>&#60;/tbody&#62;</code> : section du corps du tableau.</li>
+                            <li><code>&#60;tfoot&#62;</code> - <code>&#60;/tfoot&#62;</code> :  section du pied du tableau.</li>
+                                            
+                        </ul>
+                    </div>
+                    <div id="b6">
+                        <h4>Balises de formulaire:</h4>
+                        <p>Ces balises permettent de créer des formulaires de contact<br/> Par exemple:</p>
+                        <ul>
+                            <li><code>&#60;form&#62;</code> - <code>&#60;/form&#62;</code> : délimite un formulaire .</li>
+                            <li><code>&#60;fieldset&#62;</code> - <code>&#60;/fieldset&#62;</code> : permet de regrouper plusieurs éléments d’un formulaire.</li>
+                            <li><code>&#60;legend&#62;</code> - <code>&#60;/legend&#62;</code> : titre d’un groupe dans un formulaire.</li>
+                            <li><code>&#60;label&#62;</code> - <code>&#60;/label&#62;</code> :  titre d’un élément de formulaire.</li>
+                            <li><code>&#60;input /&#62;</code> : champ de formulaire grâce à l’attribut type.</li>
+                            <li><code>&#60;select&#62;</code> - <code>&#60;/select&#62;</code> : liste déroulante.</li>
+                            <li><code>&#60;option&#62;</code> - <code>&#60;/option&#62;</code> : élément d’une liste déroulante.</li>
+                            <li><code>&#60;optgroup&#62;</code> - <code>&#60;/optgroup&#62;</code> : groupe d’éléments d’une liste déroulante.</li>
+                                                
+                        </ul>
+                    </div>
+                    <div id="b7">
+                        <h4>Balises sectionnantes:</h4>
+                        <p>Ces balises nous sert à construire les éléments de base d’un site web.</p>
+                        <ul>
+                            <li><code>&#60;header&#62;</code> - <code>&#60;/header&#62;</code> : en-tête.</li>
+                            <li><code>&#60;nav&#62;</code> - <code>&#60;/nav&#62;</code> : liens principaux de navigation.</li>
+                            <li><code>&#60;footer&#62;</code> - <code>&#60;/footer&#62;</code> : pied de page.</li>
+                            <li><code>&#60;section&#62;</code> - <code>&#60;/section&#62;</code> :  section de page.</li>
+                            <li><code>&#60;article&#62;</code> - <code>&#60;article&#62;</code> : article (contenu autonome).</li>
+                            <li><code>&#60;aside&#62;</code> - <code>&#60;/aside&#62;</code> : informations complémentaires.</li>					
+                        </ul>
+                    </div>
+                    <div id="b8">
+                        <h4>Balises génériques:</h4>
+                        <p>Il y a deux balises génériques : l’une est inline, l’autre est block. Elles n’ont pas de sens sémantique.</p>
+                        <ul>
+                            <li><code>&#60;span&#62;</code> - <code>&#60;/span&#62;</code> :  balise générique de type inline<br />Autorise les autres éléments à venir s’asseoir à gauche et à droite.<br />Ne se redimensionne pas avec width et height.<br />Respecte les marges gauches et droites, mais pas les marges haut et bas.</li>
+                            <li><code>&#60;div&#62;</code> - <code>&#60;/div&#62;</code> : balise générique de type block<br />Force un passage à la ligne.<br/>Ne tolère pas d’élément à gauche ou à droite.<br />Se redimensionne avec width et height.<br />Respecte toutes les marges.</li>
+                                            
+                        </ul>
+                    </div>
+                    </div>
+                    <div>
+                        <h3>Leurs attributs:</h3>
+                        <p>Les éléments HTML ont des attributs, ce sont des valeurs supplémentaires qui configurent les éléments ou ajustent leur comportement de différentes manières pour répondre aux critères souhaités par les utilisateurs.<br/>Par example: </p>
+                        <ul>
+                            <li>alt : Un texte alternatif à afficher lorsque l'élément ne peut pas être affiché, utilisé dans les balises <code>&#60;applet&#62;</code> , <code>&#60;area&#62;</code> , <code>&#60;img&#62;</code> , <code>&#60;input&#62;</code></li>
+                            <li>border : Cet attribut indique la largeur de la bordure, utilisé dans les balises, <code>&#60;img&#62;</code> , <code>&#60;object&#62;</code> , <code>&#60;table&#62;</code></li>
+                            <li>charset : Cet attribut déclare l'encodage de caractères utilisé pour la page ou le script, utilisé dans les balises <code>&#60;script&#62;</code> , <code>&#60;meta&#62;</code>  </li>
+                            <li>background : Définit l'URL vers un fichier qui est une image, utilisé dans les balises <code>&#60;body&#62;</code> , <code>&#60;table&#62;</code> , <code>&#60;td&#62;</code> , <code>&#60;th&#62;</code> </li>
+                            <li>...</li>
+                        </ul>
+                    </div>
+                    <div  title="Go back to Plan"  class="text-end">
+                        <a href="#plan" class="btn btn-light return"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-up" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"/>
+                            </svg> 
+                        </a>
+                    </div>
+                </div>
+                <div title="Les balises en pair" class="shadow p-3 mb-5 bg-body rounded" id="div3">
+                    <h2>Les Balises en pair:</h2>
+                    <p>Elles s'ouvrent, contiennent du texte, et se ferment plus loin. Voici à quoi elles ressemblent : <br/> <mark><code>&#60;title&#62;</code> Ceci est un titre <code>&#60;/title&#62;</code></mark><br/>On distingue une balise ouvrante (<code>&#60;title&#62;</code>) et une balise fermante (<code>&#60;/title&#62;</code>) qui indique que le titre se termine. Cela signifie pour l'ordinateur que tout ce qui n'est pas entre ces deux balises… n'est pas un titre.</p>
+                    <div title="Go back to Plan"  class="text-end">
+                        <a href="#plan" class="btn btn-light return"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-up" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"/>
+                            </svg> 
+                        </a>
+                    </div>
+                </div>
+                <div title=" Balises les plus courantes " class="shadow p-3 mb-5 bg-body rounded" id="div4">
+                    <h2>Balises les plus courantes: </h2>
+                    <ul>
+                        <li><code>&#60;h1&#62;</code> à <code>&#60;h6&#62;</code> : titre de niveau 1 à 6.</li>
+                        <li><code>&#60;p&#62;</code> : paragraphe.</li>
+                        <li><code>&#60;a&#62;</code> : lien hypertexte.</li>
+                        <li><code>&#60;img&#62;</code> :  image.</li>
+                        <li><code>&#60;br&#62;</code> : saut de ligne.</li>
+                        <li><code>&#60;div&#62;</code> : division du contenu, sert à structurer les différentes sections de la page .</li>
+                        <li><code>&#60;span&#62;</code> : conteneur générique de texte, ne modifie pas le contenu mais permet d'attibuer des propriétés à une portion de texte.</li>
+                        <li><code>&#60;table&#62;</code> : tableau.</li>
+                        <li><code>&#60;tr&#62;</code> : ligne d'un tableau.</li>
+                        <li><code>&#60;td&#62;</code> : cellule d'un tableau.</li>
+                        <li><code>&#60;ul&#62;</code> :  liste non ordonnée (avec des puces).</li>
+                        <li><code>&#60;ol&#62;</code> : liste ordonnée (numérotée).</li>
+                        <li><code>&#60;li&#62;</code> : élément d'une liste.</li>
+                        <li><code>&#60;iframe&#62;</code> : intégration d'une autre page HTML dans la page courante.</li>
+                        <li><code>&#60;video&#62;</code> : video.</li>
+                    </ul>
+                    <div title="Go back to Plan"  class="text-end">
+                        <a href="#plan" class="btn btn-light return"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-up" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"/>
+                            </svg> 
+                        </a>
+                    </div>  
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/icon" href="images/design2.png">
+    <title>Web Development</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        
+        h1{
+            margin-bottom: 0%;
+            padding-bottom: 0%;
+        }
+        .btext{
+            padding: 1%;
+        }
+        .ftext{
+            font-size: 1.2rem;
+            width: 40%; 
+            text-align: center; 
+            color: white;
+        }
+        @media screen and (max-width:1300px) {
+            .btext{
+                font-size: 1rem;
+            }
+            .ftext{
+                font-size: 1rem;
+            }
+            h1{
+                font-size: 0.8;
+            }
+            
+        }
+        @media screen and (max-width:1180px) {
+            .btext{
+                font-size: 0.95rem;
+            }
+            .ftext{
+                font-size: 0.95rem;
+            }
+            h1{
+                font-size: 2rem;
+            }
+        }
+        @media screen and (max-width:985px) {
+            .btext{
+                font-size: 0.8rem;
+            }
+            .ftext{
+                font-size: 0.8rem;
+            }
+            h1{
+                font-size: 1.8rem;
+            }
+        }
+         @media screen and (max-width:900px) {
+            .btext{
+                font-size: 0.5rem;
+            }
+            .ftext{
+                font-size: 0.7rem;
+            }
+            h1{
+                font-size: 1.1rem;
+            }
+            .imgs{
+                height: 40vh;
+            }
+        }
+        @media screen and (max-width:670px) {
+            .btext{
+                font-size: 0.5rem;
+            }
+            .ftext{
+                font-size: 0.65rem;
+            }
+            h1{
+                font-size: 1rem;
+            }
+        }
+        @media screen and (max-width:425px) {
+    
+            .ftext{
+                font-size: 0.5rem;
+            }
+            h1{
+                font-size: 0.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+            <a href="Main_page.html" class="navbar-brand"><img src="images\design2.png" alt="img" height="40"/>  Web Dev </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse " id="nav">
+                <ul class="navbar-nav me-auto" >
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#Home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/html.html">HTML</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/css.html">CSS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/javascript.html">JAVASCRIPT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact-us">Contact Us</a></li>
+                </ul>
+                <span class="navbar-text d-sm-flex d-block justify-content-end m-lg-1 m-1"><img src="images/phone.png">73250511</span> 
+                <span class="navbar-text d-sm-flex d-block justify-content-end m-lg-1 m-1"><img src="images/mail.png" height="24"> WebDev@gmail.com</span>
+                <span class="d-sm-flex justify-content-end m-lg-1 m-1"><button class="btn btn-success text-nowrap m-1">sign in</button><button class="btn btn-success m-1">login</button></span>
+            </div>
+        </div>
+    </nav>
+    <!-- Home -->
+    <div class="card border-0 position-relative">
+        <img class="card-img imgs" src="images/phone.jpg">
+        <div class="card-body  card-img-overlay position-absolute top-50 start-50 translate-middle-y ftext text-wrap text-center" >
+            <div class="card-text ">
+                <h1>Web Development</h1> <br> Le développement Web est le codage ou la programmation qui permet de faire fonctionner un site Web, selon les exigences du propriétaire. Il traite principalement de l'aspect non conceptuel de la création de sites Web, qui comprend le codage et l'écriture du balisage. <br>
+                <a class="btn btn-success btext" style="margin: 3% 0%;" href="#HTML">Learn more</a>
+            </div>
+                
+            
+        </div>
+    </div >
+    
+    <div class="container-fluid border-bottom border-top border-3 border-dark" style="background-color: rgb(233, 233, 220);">
+        <div class="container-xxl mt-5 mb-5">
+            <!--HTML-->
+            <div class="row gy-5 d-flex justify-content-around mb-5 pb-5" id="HTML">
+                <div class="col-12 col-md-5">
+                    <h2>HTML</h2> <br>
+                        HTML5 (HyperText Markup Language 5) est la dernière révision majeure d'HTML (format de données conçu pour représenter les pages web). Cette version a été finalisée le 28 octobre 2014. HTML5 spécifie deux syntaxes d'un modèle abstrait défini en termes de DOM : HTML5 et XHTML5. Le langage comprend également une couche application avec de nombreuses API, ainsi qu'un algorithme afin de pouvoir traiter les documents à la syntaxe non conforme. <br>
+                        <a class="btn btn-success" style="margin: 3% 0%;" href="pages/html.html">Learn more</a>
+                </div>
+                <div class="col-12 col-md-5">
+                    <img src="images/html.PNG" class="img-fluid  border border-dark border-3 rounded-3 rounded-pill h-75">
+                </div>
+         </div>
+             <!--CSS-->
+            <div class="row gy-5 d-flex justify-content-around  mb-5  pb-5" id="CSS">
+                <div class="col-12 col-md-5">
+                    <img src="images/css.png" class="img-fluid  border border-dark border-3 rounded-3 rounded-pill h-75">
+                </div>
+                <div class="col-12 col-md-5">
+                    <h2>CSS3</h2> <br>
+                    Le développement du troisième niveau des feuilles de styles en cascade commence dès 1999, parallèlement à celui de CSS 2.1. CSS3 devient « modulaire », afin de faciliter ses mises à jour, mais aussi son implémentation par des agents utilisateurs aux capacités et aux besoins de plus en plus variés (navigateurs graphiques, navigateurs pour mobiles, navigateurs vocaux). Les navigateurs peuvent ainsi implémenter des sous-ensembles de CSS3. <br>
+                        <a class="btn btn-success" style="margin: 3% 0%;" href="pages/css.html">Learn more</a>
+                </div>
+            </div>
+            <!--JavaScript-->
+            <div class="row gy-5 d-flex justify-content-around mb-5 pb-5" id="Javascript">
+                <div class="col-12 col-md-5">
+                    <h2>JAVASCRIPT</h2> <br>
+                    JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives mais aussi pour les serveurs2. C’est un langage orienté objet à prototype, càd que les bases du langage et ses principales interfaces sont fournies par des objets qui ne sont pas des instances de classes, mais qui sont chacun équipés de constructeurs permettant de créer leurs propriétés, et notamment une propriété de prototypage qui permet d’en créer des objets héritiers personnalisés. <br>
+                        <a class="btn btn-success" style="margin: 3% 0%;" href="pages/javascript.html">Learn more</a>
+                </div>
+                <div class="col-12 col-md-5">
+                    <img src="images/javascript.png" class="img-fluid  border border-dark border-3 rounded-3 rounded-pill h-75">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--cards-->
+    <div class="container-fluid border-bottom border-3 border-dark" style="background-color: rgb(207, 207, 206); padding: 7% 0%;">
+        <div class="container">
+            <div class="row gy-5 d-flex justify-content-center ">
+                <div class="col d-flex justify-content-center">
+                    <div class="card position-relative shadow p-3 mb-5 bg-body rounded h-100" style="width: 18rem;">
+                        <img src="images/htmlicon.PNG" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">HTML Plans:</h5>
+                          <div class="card-text "><p> Introduction</p>
+							<p> Les balises et leurs attributs</p>
+							<p> Les balises en paires</p>
+							<p> Balises les plus courantes</p></div>
+                            <div class="position-absolute bottom-0"> <p><a class="btn btn-success" href="pages/html.html">Learn More</a></p></div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <div class="card position-relative shadow p-3 mb-5 bg-body rounded h-100" style="width: 18rem;">
+                        <img src="images/css.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS3 Plans:</h5>
+                            <div class="card-text">
+                                <p>Principe des feuilles de style CSS</p>
+                                <p>Les bases De CSS</p>
+                                <p>Sélecteur de Base</p>
+                                <p>Les Déclarations</p>
+                            </div>
+                            <div class="position-absolute bottom-0"> <p><a class="btn btn-success" href="pages/css.html">Learn More</a></p></div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <div class="card position-relative shadow p-3 mb-5 bg-body rounded h-100" style="width: 18rem;">
+                        <img src="images/javascript.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">JavaScript Plans:</h5>
+                          <div class="card-text">
+                            <p>Introduction</p>
+					        <p>Ou se place le code JavaScript?</p>
+                          </div>
+                          <div class="position-absolute bottom-0"> <p><a class="btn btn-success" href="pages/javascript.html">Learn More</a></p></div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contact Us-->
+    <div class="container-fluid">
+        <div class="row border-top border-3 border-dark" style="background-color: rgb(52, 51, 51);" id="contact-us">
+        <div class="col-12 col-sm-7 text-light text-center">
+            <h2 style="margin: 5%;">Have any questions in mind?</h2> <br> <p class="fs-4 text-center">Feel free to contact us and ask any questions about web development <br>You can even send us your projects' files <br> and we will be delighted to help solve your problems</p>
+        </div>
+        <div class="col-12 col-sm-3" >
+            <div class="form-floating mb-3 mt-5">
+                <input type="text" class="form-control" id="floatingName" placeholder="Name">
+                <label for="floatingName">First Name</label>
+            </div>
+            <div class="form-floating mb-3 mt-3">
+                <input type="text" class="form-control" id="floatingLastName" placeholder="Last Name">
+                <label for="floatingLastName">Last Name</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control mb-3" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px;"></textarea>
+                <label for="floatingTextarea2">Message</label>
+                <div class="mb-3">
+                    <input class="form-control" type="file" id="formFileMultiple" multiple>
+                  </div>
+                <button class="btn btn-success fs-5 mb-5">Submit</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
